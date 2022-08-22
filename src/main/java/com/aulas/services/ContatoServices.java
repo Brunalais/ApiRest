@@ -26,7 +26,6 @@ public class ContatoServices {
 		}*/
 		Contato ct = repo.save(contato);
 		ContatoDTO ctDto = new ContatoDTO(ct);
-		System.out.print(ctDto.getNome());
 		return ctDto;
 	}
 	
